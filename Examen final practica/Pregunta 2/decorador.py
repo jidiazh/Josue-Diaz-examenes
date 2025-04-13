@@ -14,7 +14,6 @@ la media del estudiante."""
 from datetime import datetime
 
 
-# Decorador que evalúa la cantidad de parámetros y muestra mensajes
 def conteo(func):
     def wrapper(*args, **kwargs):
         total_parametros = len(args) + len(kwargs)
